@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <h1 style="background-color:plum;"><a href="Boatstrap.html">Home</a> <a href="Boatstrap2.html">Contact</a> <a href="BoatStrapAbout.html">About</a> <a href="BoatStrapshop.html">Shop</a></h1>
+   
+    <div style="font-size: large;font-weight: bold;border-style: inset;" id="info">
+        <h2 id="1"> Contact Information</h2>   
+        <p id="2">Address: 145  Newwindser Auckland</p>
+        <p id="3"> Contact Number: 1938172</p>
+        <p id="4">Email Addres:SimpleShop@Simpleshop.co.nz</p>
+        <p id="5">Fax Number:03827183</p>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+       <button onclick="colour()">Change Colour</button>
+       <button onclick="right()">Align Right</button>
+   
+       <br>
+       <br>
+   
+     
+       <script>
+           function colour(){
+               document.getElementById("info").style= "font-size:larger; font-weight: bold; border-style:insect; color:red";
+           }
+           function right(){
+               document.getElementById("info").style= "text-align: right; border-style:insect; font-size:larger; font-weight: bold;";
+           }
+   
+           function bigImg(x) {
+               x.style.height = "64px";
+               x.style.width = "64px";
+           }
+           function normalImg(x) {
+               x.style.height = "32px";
+               x.style.width = "32px";
+           }
+           function hide(){
+               document.getElementById("mdimg").style.visibility = "hidden";
+           }
+   
+       
+          var x = myFunction(5,6);
+           document.getElementById("ali").innerHTML = x;
+           function myFunction(a,b){
+               return a * b;
+           }
+               function myFunction(a1, a2)
+               {
+               return a1 * a2;
+               }
+           document.getElementById("ali").innerHTML = myFunction(5, 9);
+   
+           /*function MD(){
+               document.getElementById("ceostatement").innerHTML = "I have seen seen our business go through some significant changes throughout my 7 years as My Interiors Managing Director and 10 years of experience within the business, however one thing has always remained constant – our unstinting commitment to our customers. The needs of our clients have always been at the heart of our achievements: from the expansion of our services and development of new and exciting products, through to training our staff to be the best in the industry. Everything we do has the customer in mind and that’s why we can proudly say that 85% of our contracts are generated from repeat business.";
+               document.getElementById("message").innerHTML = "Message from The Manageing Director"
+               document.getElementById("ceoimg").src = "NY.jpg";
+   
+           }*/
+           
+   
+           
+       </script>
+       <h1>Contact page</h1>
+       <br>
+       <h1>Any inquires? add your contact details here and reasons and we will get back to you</h1>
+       <br>
+       <br>
+       
+       <h1>Email</h1>
+       <input type="text"<br>
+       <br>
+       <h1>Subject</h1>
+       <input type="text"<br>
+       <br>
+       <h1>inquire</h1>
+       
+       <textarea id="w3review" name="w3review" rows="30" cols="70"></textarea>
+        <br>
+       <button onclick="Messagesent.html()">Submit message</button>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
